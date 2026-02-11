@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 import { useState } from "react";
 import { supabase } from "../lib/supabase";
-import { Analytics } from "@vercel/analytics/next"
 
 
 export default function Home() {
