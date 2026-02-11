@@ -60,9 +60,9 @@ export default function Home() {
             <Image
               src="/beyondlogo.png"
               alt="Beyond Framez Logo"
-              width={32}
-              height={32}
-              className="object-contain"
+              width={70}
+              height={70}
+              className="object-cover w-16 h-16"
             />
           </div>
 
