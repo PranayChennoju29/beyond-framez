@@ -58,7 +58,7 @@ export default function Home() {
         <div className="flex justify-center items-center gap-3 mb-8">
           <div className="bg-white rounded-md w-9 h-9 flex items-center justify-center overflow-hidden">
             <Image
-              src="/beyondlogo.png"
+              src="/beyondl.png"
               alt="Beyond Framez Logo"
               width={70}
               height={70}
