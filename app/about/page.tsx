@@ -192,24 +192,24 @@ export default function AboutPage() {
 
                             {[
                                 {
-                                    name: "Elara Vance",
-                                    role: "Creative Director",
-                                    image: "/person.png",
-                                },
-                                {
                                     name: "Praneeth Chennoju",
-                                    role: "VFX Supervisor",
-                                    image: "/person.png",
+                                    role: "Visual Graphics Designer",
+                                    image: "/praneeth.jpeg",
                                 },
                                 {
-                                    name: "Lyra Solis",
-                                    role: "Lead Motion Designer",
-                                    image: "/person.png",
+                                    name: "Rishi Renukuntla",
+                                    role: "Visual Graphics Designer",
+                                    image: "/rishii.jpeg",
                                 },
                                 {
-                                    name: "Jax Orion",
-                                    role: "Technical Artist",
-                                    image: "/person.png",
+                                    name: "Pranay Chennoju",
+                                    role: "Developer",
+                                    image: "/pranayy.jpeg",
+                                },
+                                {
+                                    name: "Deekshith Sura",
+                                    role: "Social media marketer",
+                                    image: "/deekshith.jpeg",
                                 },
                             ].map((member, index) => (
                                 <div
@@ -218,13 +218,16 @@ export default function AboutPage() {
                                 >
                                     {/* Profile Image */}
                                     <div className="flex justify-center mb-6">
-                                        <Image
-                                            src={member.image}
-                                            alt={member.name}
-                                            width={100}
-                                            height={100}
-                                            className="rounded-full object-cover border-4 border-white/10"
-                                        />
+                                        <div className="relative w-36 h-36 rounded-full overflow-hidden border-4 border-white/10">
+
+                                            <Image
+                                                src={member.image}
+                                                alt={member.name}
+                                                fill
+                                                sizes="112px"
+                                                className="object-cover"
+                                            />
+                                        </div>
                                     </div>
 
                                     <h3 className="text-lg font-semibold">
@@ -268,7 +271,7 @@ export default function AboutPage() {
                             </h3>
 
                             <p className="text-purple-500 text-sm mb-4">
-                                Global VFX Alliance
+                                Creative Multimedia
                             </p>
 
                             <p className="text-gray-400 text-sm leading-relaxed">
@@ -288,11 +291,11 @@ export default function AboutPage() {
                             </div>
 
                             <h3 className="text-xl font-semibold mb-2">
-                                Motion Graphics Innovator Award 2023
+                                Motion Graphics Innovator Award 2024
                             </h3>
 
                             <p className="text-purple-500 text-sm mb-4">
-                                Digital Arts Society
+                                Creative Multimedia
                             </p>
 
                             <p className="text-gray-400 text-sm leading-relaxed">
@@ -316,7 +319,7 @@ export default function AboutPage() {
                             </h3>
 
                             <p className="text-purple-500 text-sm mb-4">
-                                Future Film Academy
+                                Creative Multimedia
                             </p>
 
                             <p className="text-gray-400 text-sm leading-relaxed">
@@ -350,7 +353,7 @@ export default function AboutPage() {
                             </p>
                         </div>
 
-                        {/* Card 2 */}
+                        {/* Card 2
                         <div className="bg-[#111111] border border-white/10 rounded-2xl p-8 hover:border-purple-500 transition duration-300">
                             <Box className="text-purple-500 mb-4" size={28} />
                             <h3 className="text-lg font-semibold mb-2">3D Modeling & Animation</h3>
@@ -358,7 +361,7 @@ export default function AboutPage() {
                                 Creating intricate 3D assets and dynamic animations that bring
                                 concepts to life.
                             </p>
-                        </div>
+                        </div> */}
 
                         {/* Card 3 */}
                         <div className="bg-[#111111] border border-white/10 rounded-2xl p-8 hover:border-purple-500 transition duration-300">
@@ -400,7 +403,7 @@ export default function AboutPage() {
                             </p>
                         </div>
 
-                        {/* Card 7 */}
+                        {/* Card 7
                         <div className="bg-[#111111] border border-white/10 rounded-2xl p-8 hover:border-purple-500 transition duration-300">
                             <Workflow className="text-purple-500 mb-4" size={28} />
                             <h3 className="text-lg font-semibold mb-2">Procedural Content</h3>
@@ -408,7 +411,7 @@ export default function AboutPage() {
                                 Employing procedural generation for complex simulations
                                 and scalable asset creation.
                             </p>
-                        </div>
+                        </div> */}
 
                         {/* Card 8 */}
                         <div className="bg-[#111111] border border-white/10 rounded-2xl p-8 hover:border-purple-500 transition duration-300">
@@ -520,15 +523,15 @@ export default function AboutPage() {
                             <ul className="space-y-4 text-gray-400 text-sm">
                                 <li className="flex items-center gap-3">
                                     <Mail size={16} />
-                                    info@beyondframez.com
+                                    beyondframez2801@gmail.com
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <Phone size={16} />
-                                    +91 00000 00000
+                                    +91 7981464973, 9381774128
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <MapPin size={16} className="mt-0.5" />
-                                    Hyderabad, India
+                                    Warangal, India
                                 </li>
                             </ul>
                         </div>

@@ -122,9 +122,9 @@ export default function ServicesPage() {
                     <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-12">
 
                         {[
-                            { number: "50+", label: "Projects Delivered" },
+                            { number: "10+", label: "Projects Delivered" },
                             { number: "10+", label: "Brands Collaborated" },
-                            { number: "5+", label: "Years Experience" },
+                            { number: "2+", label: "Years Experience" },
                             { number: "100%", label: "Client Satisfaction" },
                         ].map((stat, i) => (
                             <div key={i}>
@@ -167,7 +167,7 @@ export default function ServicesPage() {
                     </p>
 
                     <a
-                        href="/full-site/contact"
+                        href="/contact"
                         className="bg-purple-600 hover:bg-purple-700
             px-8 py-3 rounded-full font-medium
             transition-all duration-300
@@ -254,15 +254,15 @@ export default function ServicesPage() {
                             <ul className="space-y-4 text-gray-400 text-sm">
                                 <li className="flex items-center gap-3">
                                     <Mail size={16} />
-                                    info@beyondframez.com
+                                    beyondframez2801@gmail.com
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <Phone size={16} />
-                                    +91 00000 00000
+                                    +91 7981464973, 9381774128
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <MapPin size={16} className="mt-0.5" />
-                                    Hyderabad, India
+                                    Warangal, India
                                 </li>
                             </ul>
                         </div>

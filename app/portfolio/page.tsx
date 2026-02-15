@@ -8,42 +8,42 @@ const categories = [
     "All",
     "VFX & Compositing",
     "Motion Graphics",
-    "3D Animation",
+
     "Video Production",
     "Interactive Experiences",
 ];
 
 const projects = [
-    {
-        title: "Quantum Leap VFX",
-        category: "VFX & Compositing",
-        image: "/sample.png",
-    },
-    {
-        title: "Nebula Nexus",
-        category: "Motion Graphics",
-        image: "/sample.png",
-    },
-    {
-        title: "Chrono-Drive 3D Animation",
-        category: "3D Animation",
-        image: "/sample.png",
-    },
+    // {
+    //     title: "Quantum Leap VFX",
+    //     category: "VFX & Compositing",
+    //     image: "/sample.png",
+    // },
+    // {
+    //     title: "Nebula Nexus",
+    //     category: "Motion Graphics",
+    //     image: "/sample.png",
+    // },
+    // // {
+    // //     title: "Chrono-Drive 3D Animation",
+    // //     category: "3D Animation",
+    // //     image: "/sample.png",
+    // // },
     {
         title: "Ethereal Echoes",
         category: "Video Production",
         image: "/sample.png",
     },
-    {
-        title: "Cybernetics",
-        category: "Interactive Experiences",
-        image: "/sample.png",
-    },
-    {
-        title: "Cosmic Drift VFX",
-        category: "VFX & Compositing",
-        image: "/sample.png",
-    },
+    // {
+    //     title: "Cybernetics",
+    //     category: "Interactive Experiences",
+    //     image: "/sample.png",
+    // },
+    // {
+    //     title: "Cosmic Drift VFX",
+    //     category: "VFX & Compositing",
+    //     image: "/sample.png",
+    // },
 ];
 
 export default function PortfolioPage() {
@@ -74,9 +74,9 @@ export default function PortfolioPage() {
                     <p className="text-gray-300 mb-8">
                         Dive into our most impactful projects ranging from cinematic VFX to immersive digital experiences.
                     </p>
-                    <button className="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-full">
+                    {/* <button className="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-full">
                         Watch Reel
-                    </button>
+                    </button> */}
                 </div>
             </section>
 
@@ -215,15 +215,15 @@ export default function PortfolioPage() {
                             <ul className="space-y-4 text-gray-400 text-sm">
                                 <li className="flex items-center gap-3">
                                     <Mail size={16} />
-                                    info@beyondframez.com
+                                    beyondframez2801@gmail.com
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <Phone size={16} />
-                                    +91 00000 00000
+                                    +91 7981464973, 9381774128
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <MapPin size={16} className="mt-0.5" />
-                                    Hyderabad, India
+                                    Warangal, India
                                 </li>
                             </ul>
                         </div>

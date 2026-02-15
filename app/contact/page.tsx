@@ -174,7 +174,7 @@ export default function ContactPage() {
                                     <Mail className="text-purple-500 mt-1" size={18} />
                                     <div>
                                         <p className="text-white font-medium">Email</p>
-                                        <p>info@beyondframez.com</p>
+                                        <p>beyondframez2801@gmail.com</p>
                                     </div>
                                 </div>
 
@@ -182,7 +182,7 @@ export default function ContactPage() {
                                     <Phone className="text-purple-500 mt-1" size={18} />
                                     <div>
                                         <p className="text-white font-medium">Phone</p>
-                                        <p>+91 00000 00000</p>
+                                        <p>+91 7981469473, 9381774128</p>
                                     </div>
                                 </div>
 
@@ -190,16 +190,16 @@ export default function ContactPage() {
                                     <MapPin className="text-purple-500 mt-1" size={18} />
                                     <div>
                                         <p className="text-white font-medium">Address</p>
-                                        <p>Hyderabad, India</p>
+                                        <p>Warangal, India</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
 
-                        <div className="bg-[#111] border border-white/10 rounded-2xl h-52 flex items-center justify-center text-gray-500">
+                        {/* <div className="bg-[#111] border border-white/10 rounded-2xl h-52 flex items-center justify-center text-gray-500">
                             Google Map Here
-                        </div>
+                        </div> */}
 
                         <div className="bg-[#111] border border-white/10 rounded-2xl p-8">
                             <h3 className="text-xl font-semibold mb-6">
@@ -208,8 +208,15 @@ export default function ContactPage() {
 
                             <div className="flex gap-6 text-gray-400">
                                 <Facebook className="hover:text-purple-500 cursor-pointer" />
-                                <Instagram className="hover:text-purple-500 cursor-pointer" />
-                                <Twitter className="hover:text-purple-500 cursor-pointer" />
+                                <a
+                                    href="https://www.instagram.com/beyondframez.co?igsh=MTg2bHpucHo1c3Q3YQ=="
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Instagram className="hover:text-purple-500 cursor-pointer transition duration-300" />
+                                </a>
+                                s
+                                {/* <Twitter className="hover:text-purple-500 cursor-pointer" /> */}
                                 <Linkedin className="hover:text-purple-500 cursor-pointer" />
                             </div>
                         </div>
