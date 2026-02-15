@@ -150,7 +150,7 @@ export default function PortfolioPage() {
                                 {/* White logo container – tight */}
                                 <div className="bg-white rounded-md w-9 h-9 overflow-hidden flex items-center justify-center">
                                     <Image
-                                        src="/beyondlogo.png"
+                                        src="/beyondl.png"
                                         alt="Beyond Framez Logo"
                                         width={60}
                                         height={60}
