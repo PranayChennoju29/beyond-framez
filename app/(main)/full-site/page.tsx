@@ -270,6 +270,7 @@ export default function Home() {
                 </div>
             </section>
             {/* FOOTER */}
+            {/* FOOTER */}
             <footer className="bg-black text-white border-t border-white/10">
                 <div className="max-w-7xl mx-auto px-6 py-20">
 
@@ -277,69 +278,84 @@ export default function Home() {
 
                         {/* BRAND */}
                         <div>
-                            <div className="flex items-center gap-2 mb-4">
-                                <div className="bg-white rounded-md px-1.5 py-1 flex items-center justify-center">
+                            <div className="flex items-center gap-3 mb-5">
+                                {/* White logo container – tight */}
+                                <div className="bg-white rounded-md w-9 h-9 overflow-hidden flex items-center justify-center">
                                     <Image
                                         src="/beyondlogo.png"
                                         alt="Beyond Framez Logo"
-                                        width={24}
-                                        height={24}
-                                        className="object-contain"
+                                        width={60}
+                                        height={60}
+                                        className="object-cover w-16 h-16"
                                     />
                                 </div>
-                                <span className="text-red-500 font-semibold text-lg">
-                                    Beyond Framez
+
+                                <span className="text-white font-semibold text-lg">
+                                    Beyond <span className="text-red-500">Framez</span>
                                 </span>
                             </div>
 
-                            <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                                Crafting cinematic digital experiences that captivate and convert.
+                            <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-xs">
+                                Crafting cinematic digital experiences through VFX, motion graphics,
+                                website & app development that captivate and convert.
                             </p>
 
                             {/* Social Icons */}
-                            <div className="flex gap-4 text-gray-400">
-                                <a href="#" className="hover:text-white"><Facebook size={18} /></a>
-                                <a href="#" className="hover:text-white"><Instagram size={18} /></a>
-                                <a href="#" className="hover:text-white"><Twitter size={18} /></a>
-                                <a href="#" className="hover:text-white"><Linkedin size={18} /></a>
+                            <div className="flex gap-5 text-gray-400">
+                                <a href="#" className="hover:text-white transition">
+                                    <Facebook size={18} />
+                                </a>
+                                <a href="#" className="hover:text-white transition">
+                                    <Instagram size={18} />
+                                </a>
+                                <a href="#" className="hover:text-white transition">
+                                    <Twitter size={18} />
+                                </a>
+                                <a href="#" className="hover:text-white transition">
+                                    <Linkedin size={18} />
+                                </a>
                             </div>
                         </div>
 
                         {/* COMPANY */}
                         <div>
-                            <h4 className="font-semibold mb-4">Company</h4>
+                            <h4 className="font-semibold mb-5 text-white">Company</h4>
                             <ul className="space-y-3 text-gray-400 text-sm">
-                                <li><a href="/" className="hover:text-white">Home</a></li>
-                                <li><a href="/about" className="hover:text-white">About Us</a></li>
-                                <li><a href="/services" className="hover:text-white">Services</a></li>
-                                <li><a href="/portfolio" className="hover:text-white">Portfolio</a></li>
+                                <li><a href="/" className="hover:text-white transition">Home</a></li>
+                                <li><a href="/about" className="hover:text-white transition">About Us</a></li>
+                                <li><a href="/services" className="hover:text-white transition">Services</a></li>
+                                <li><a href="/portfolio" className="hover:text-white transition">Portfolio</a></li>
+                                <li><a href="/contact" className="hover:text-white transition">Contact</a></li>
                             </ul>
                         </div>
 
                         {/* SERVICES */}
                         <div>
-                            <h4 className="font-semibold mb-4">Services</h4>
+                            <h4 className="font-semibold mb-5 text-white">Services</h4>
                             <ul className="space-y-3 text-gray-400 text-sm">
                                 <li>Video Production</li>
-                                <li>Social Media</li>
+                                <li>VFX & Motion Graphics</li>
                                 <li>Branding</li>
-                                <li>Web Development</li>
+                                <li>Website Development</li>
+                                <li>App Development</li>
                             </ul>
                         </div>
 
                         {/* CONTACT */}
                         <div>
-                            <h4 className="font-semibold mb-4">Contact</h4>
+                            <h4 className="font-semibold mb-5 text-white">Contact</h4>
                             <ul className="space-y-4 text-gray-400 text-sm">
                                 <li className="flex items-center gap-3">
-                                    <Mail size={16} /> info@beyondframez.com
+                                    <Mail size={16} />
+                                    info@beyondframez.com
                                 </li>
                                 <li className="flex items-center gap-3">
-                                    <Phone size={16} /> +1 (555) 123-4567
+                                    <Phone size={16} />
+                                    +91 00000 00000
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <MapPin size={16} className="mt-0.5" />
-                                    123 Neon Ave, Future City, XYZ 98765
+                                    Hyderabad, India
                                 </li>
                             </ul>
                         </div>
