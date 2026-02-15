@@ -203,7 +203,7 @@ export default function AboutPage() {
                                 },
                                 {
                                     name: "Pranay Chennoju",
-                                    role: "Developer",
+                                    role: "Software Engineer",
                                     image: "/pranayy.jpeg",
                                 },
                                 {

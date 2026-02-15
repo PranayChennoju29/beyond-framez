@@ -215,7 +215,7 @@ export default function ContactPage() {
                                 >
                                     <Instagram className="hover:text-purple-500 cursor-pointer transition duration-300" />
                                 </a>
-                                s
+
                                 {/* <Twitter className="hover:text-purple-500 cursor-pointer" /> */}
                                 <Linkedin className="hover:text-purple-500 cursor-pointer" />
                             </div>

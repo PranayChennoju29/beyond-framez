@@ -282,7 +282,7 @@ export default function Home() {
                                 {/* White logo container – tight */}
                                 <div className="bg-white rounded-md w-9 h-9 overflow-hidden flex items-center justify-center">
                                     <Image
-                                        src="/beyondlogo.png"
+                                        src="/beyondl.png"
                                         alt="Beyond Framez Logo"
                                         width={60}
                                         height={60}
@@ -357,7 +357,7 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-center gap-3">
                                     <Phone size={16} />
-                                    +91 79+81469473, 9381774128
+                                    +91 7981469473, 9381774128
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <MapPin size={16} className="mt-0.5" />
