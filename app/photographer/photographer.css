@@ -1,0 +1,10 @@
+.photographer-theme {
+    background: black;
+    color: white;
+}
+
+.hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
